@@ -5,7 +5,7 @@ const Footer = () => {
     <footer>
     <div class="contact-box">
         <div class="contact-left">
-            <h3>Send your request</h3>
+            <h3 style={{fontWeight: 'bold', color: 'rgb(89, 87, 87)'}}>Get in touch</h3>
             <form>
                 <div class="input-row">
                     <div class="input group">
@@ -30,13 +30,13 @@ const Footer = () => {
                 <label>Message</label>
                 <textarea rows="5" placeholder="Your Message"></textarea>
 
-                <button type="submit">Submit</button>
+                <button style={{marginTop: '10px'}} type="submit">Submit</button>
             </form>
 
 
         </div>
         <div class="contact-right">
-            <h3>Reach Us</h3>
+            <h3 style={{fontWeight: 'bold', color: 'rgb(89, 87, 87)'}}>Reach Us</h3>
 
             <table>
                 <tr>
@@ -57,6 +57,9 @@ const Footer = () => {
 
 
         </div>
+    </div>
+    <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'center', padding: '10px', backgroundColor: 'aliceblue', borderTop: '1px solid rgb(208, 202, 202)'}}>
+        <p>HFO &copy; 2023 All rights reserved.</p>
     </div>
     </footer>
   );
