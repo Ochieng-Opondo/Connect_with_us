@@ -1,37 +1,81 @@
 {
-    "characters": [
+  "cardObject" :
+  [
+      {     
+          "id": 1,
+      "imageUrl":"https://plus.unsplash.com/premium_photo-1671070290610-aad0f9b06eef?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=736&q=80",
+    "imageAlt":"An example image",
+    "title":"Education ",
+    "description":"Help children get education.Support them by providing funding for their education." },
+  {
+      "id": 2,
+    "imageUrl":"https://thumbs.dreamstime.com/b/startup-circle-process-business-concept-60485119.jpg",
+    "imageAlt":"An example image",
+    "title":"Business Startups.",
+    "description":"Help business startups get funding for their business and get their business to the top level." 
+  },
+  {
+      "id": 3,
+    "imageUrl":"https://www.shutterstock.com/image-photo/empowerment-enable-improvement-progress-concept-260nw-433228525.jpg",
+    "imageAlt":"An example image",
+    "title":"Youth Empowerment.",
+    "description":"Help business startups get funding for their business and get their business to the top level." 
+  },
+  {
+      "id": 4,
+    "imageUrl":"https://media.istockphoto.com/id/668218790/photo/group-of-friends-huddle-in-rear-view-together.jpg?b=1&s=170667a&w=0&k=20&c=T9JQ_3k2bDRRMO29JFEimr9knc24x7-ovRALVswzIBE=",
+    "imageAlt":"An example image",
+    "title":"Community.",
+    "description":"Help business startups get funding for their business and get their business to the top level." 
+  },
+  
+  {
+      "id": 5,
+    "imageUrl":"https://thumbs.dreamstime.com/b/glass-jar-words-charity-heart-concept-accumulating-money-donations-saving-social-medical-help-volunteers-135369144.jpg",
+    "imageAlt":"An example image",
+    "title":"Causes and Charity.",
+    "description":"Help business startups get funding for their business and get their business to the top level." 
+  },
+  {
+          "id": 6,
+          "imageUrl":"https://img.freepik.com/premium-photo/black-woman-with-hands-out-charity-donation-he[…]r-helping-with-empowerment-women-need_590464-84483.jpg?w=2000",
+          "imageAlt":"Image of a happy woman",
+          "title":"Women Empowerment",
+          "description":"Empowering women and girls through education, mentorship, and other resources."
+        },
+      
+      
+      
+       {
+          "id": 7,
+          "imageUrl":"https://www.shutterstock.com/image-photo/kenya-rusinga-island-utajo-village-260nw-1180465816.jpg",
+          "imageAlt":"Image of an orphaned child",
+          "title":"Orphans",
+          "description":"Providing care and support for orphaned children and youth in the society."
+        },
+     
+     {
+          "id": 8,
+          "imageUrl":"https://c8.alamy.com/comp/WHBX8F/wildlife-conservation-day-wild-animals-to-the-home-or-wildlife-protection-WHBX8F.jpg",
+          "imageAlt":"Image of safari animals in Africa",
+          "title":"Wildlife Conservation",
+          "description":"Protecting and preserving wildlife and their habitats through conservation efforts."
+        },
+      
+       {
+          "id": 9,
+          "imageUrl":"https://c8.alamy.com/comp/D9N4GE/donate-for-a-charity-or-charitable-cause-D9N4GE.jpg",
+          "imageAlt":"Image of hands giving donations",
+          "title":"Causes and Charity",
+          "description":"Supporting various causes and charities through donations and fundraising."
+        },
       {
-        "id": 1,
-        "name": "Mr. Cute",
-        "image": "https://thumbs.gfycat.com/EquatorialIckyCat-max-1mb.gif",
-        "votes": 0
-      },
-      {
-        "id": 2,
-        "name": "Mx. Monkey",
-        "image": "https://thumbs.gfycat.com/FatalInnocentAmericanshorthair-max-1mb.gif",
-        "votes": 0
-      },
-      {
-        "id": 3,
-        "name": "Ms. Zebra",
-        "image": "https://media2.giphy.com/media/20G9uNqE3K4dRjCppA/source.gif",
-        "votes": 0
-      },
-      {
-        "id": 4,
-        "name": "Dr. Lion",
-        "image": "http://bestanimations.com/Animals/Mammals/Cats/Lions/animated-lion-gif-11.gif",
-        "votes": 0
-      },
-      {
-        "id": 5,
-        "name": "Mme. Panda",
-        "image": "https://media.giphy.com/media/ALalVMOVR8Qw/giphy.gif",
-        "votes": 0
-      }
-    ]
-   }
-   
-   
-   
+          "id": 10,
+          "imageUrl":"https://thumbs.dreamstime.com/z/different-food-text-donate-wooden-background-top-view-donation-concept-184381799.jpg",
+          "imageAlt":"Image of people receiving food donations",
+          "title":"Food Donation",
+          "description":"Providing food and support to those in need through donations and other initiatives."
+        }
+  ]
+  }
+  

@@ -1,21 +1,21 @@
 import './App.css';
-import Header from './components/header';
-import About from './components/about';
-import Footer from './components/footer';
+import Landing from './Components/Landing';
+import About from './Components/About';
+import Footer from './Components/ Footer';
+import Header from './Components/Header';
 
 
+function App({ cardObject }) {
 
-function App({cardObject}) {
 
- 
   return (
-  <div>
-   
-    <Header />
-    <About cardObject={cardObject}/>
-  <Footer/>
-  
- </div>
+    <div>
+      <Header />
+      <Landing />
+      <About cardObject={cardObject} />
+      <Footer />
+
+    </div>
   );
 
 }

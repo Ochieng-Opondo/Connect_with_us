@@ -1,4 +1,7 @@
-#h1{
+body {
+  width: 100%;
+}
+#h1 {
   text-align: center;
   font-size: 40px;
   margin-right: 500px;
@@ -12,58 +15,61 @@
 } */
 
 .btn {
-  margin-right: 10px;
-  background-color: rgb(186, 186, 255);
+  background-color: #1c00b5;
   padding: 8px;
   border-radius: 5px;
   font-weight: bold;
-  margin-top: 30px;
 }
 
-.head{
+.head {
   background-color: aliceblue;
+  display: flex;
+  flex-direction: row;
+  padding: 40px;
+  justify-content: center;
+  gap: 30px;
+  align-items: center;
 }
 
-#art{
-  font-size: 30px;
-  font-style: italic;
+#art {
+  font-size: 42px;
+  font-style: bold;
   font-weight: 700;
-  margin-left: 100px;
   padding-top: 10px;
-  margin-top: 30px;
   color: rgb(88, 88, 88);
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
 }
 
-.txt{
-  margin-left: 100px;
-  padding-top: 10px;
-  float:left ;
-  width: 50%;
+.logo {
+  font-weight: bold;
+  color: rgb(143, 139, 139);
 }
 
-#pic{
-  width: 400px;
+.txt {
+  text-align: left;
+  line-height: 30px;
+}
+
+#pic {
+  width: 600px;
   height: auto;
-  /* margin-left: 13px; */
-  /* margin-right: 120px; */
-  margin-bottom: 50px;
-  
+  object-fit: cover;
+  border-radius: 20px;
 }
 
-.nav{
-  display:flex;
+.header-slot {
+  border-bottom: 1px solid rgb(208, 202, 202);
+}
+.nav {
+  display: flex;
 }
 
 .Cards div {
   width: 200px;
   height: 300px;
-  margin-bottom: 20px;
-  margin-top: 30px;
-  margin-left: 10px;
+
   /* padding: 20px; */
   padding-bottom: 200px;
   padding-left: 20px;
@@ -77,7 +83,6 @@
   flex-direction: column;
   justify-content: center;
   background-color: aliceblue;
-  
 }
 .Cards div img {
   width: 100%;
@@ -97,67 +102,107 @@
   margin-bottom: 10px;
 }
 
-.footer{
+.footer {
   background-color: rgb(188, 223, 253);
 }
 
-.container{
+.cards {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 100%;
+  display: grid;
+  flex-direction: row;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.donate {
+  margin-top: 10px;
+  border-radius: 5px;
+  transition: all ease-in;
+  transition-duration: 200ms;
+}
+
+.donate:hover {
+  border-radius: 20px;
+}
+
+.card {
+  margin-top: 20px;
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  overflow: hidden;
+  transition: all ease;
+  transition-duration: 300ms;
+}
+
+.card:hover img {
+  transform: scale(1.05);
+}
+
+.container {
   width: 80%;
   margin: 50px auto;
 }
-.contact-box{
+.contact-box {
   background-color: aliceblue;
   display: flex;
   color: black;
 }
-.contact-left{
+.contact-left {
   flex-basis: 60%;
   padding: 30px 30px;
 }
-.contact-right{
+.contact-right {
   flex-basis: 60%;
-  padding: 20px;
+  padding: 30px 30px;
   background: aliceblue;
   color: black;
 }
-h1{
+h1 {
   margin-top: 10px;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   font-weight: bold;
 }
-.container p{
+.container p {
   margin-top: 40px;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
 }
-.input-row{
+.input-row {
   display: flex;
   justify-content: space-between;
   margin-bottom: 20px;
 }
-.input-row .input-group{
+.input-row .input-group {
   flex-basis: 45%;
 }
-input{
-  width: 100%;
+input {
+  width: 250px;
+  padding: 15px;
   border: none;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid rgb(40, 198, 40);
   outline: none;
   padding-bottom: 5px;
-  font-size: x-large;
+  font-size: medium;
+  border-radius: 4px;
 }
-textarea{
+textarea {
   width: 100%;
   border-bottom: 1px solid #ccc;
   outline: none;
   padding: 10px;
   box-sizing: border-box;
 }
-label{
+label {
   margin-bottom: 6px;
   display: block;
   color: black;
 }
-button{
+button {
   background: #1c00b5;
   width: 100px;
   height: 35px;
@@ -166,25 +211,24 @@ button{
   color: #fff;
   cursor: pointer;
   border-radius: 30px;
-  margin-top: 20px;
 }
-.contact-left h3{
+.contact-left h3 {
   color: black;
   font-weight: 600;
   margin-bottom: 30px;
-  font-size: xx-large;
+  font-size: medium;
 }
-.contact-right h3{
+.contact-right h3 {
   font-weight: 600;
   margin-bottom: 30px;
-  font-size: xx-large;
+  font-size: medium;
 }
 
-tr td:first-child{
+tr td:first-child {
   padding-right: 20px;
-  font-size: xx-large;
+  font-size: medium;
 }
-tr td{
+tr td {
   padding-top: 20px;
 }
 
@@ -199,7 +243,8 @@ body.active-modal {
   font-size: 18px;
 }
 
-.modal, .overlay {
+.modal,
+.overlay {
   width: 100vw;
   height: 100vh;
   top: 0;
@@ -210,7 +255,7 @@ body.active-modal {
 }
 
 .overlay {
-  background: rgba(49,49,49,0.8);
+  background: rgba(49, 49, 49, 0.8);
 }
 .modal-content {
   position: absolute;
@@ -232,8 +277,13 @@ body.active-modal {
   padding: 5px 7px;
 }
 
-#prog{
-  font-style: italic;
+#prog {
+  font-style: normal;
   font-weight: 500;
-  
+  font-size: small;
+  color: rgb(30, 112, 30);
+}
+
+.description {
+  min-height: 70px;
 }
