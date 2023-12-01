@@ -41,11 +41,11 @@ const Footer = () => {
             <table>
                 <tr>
                     <td>Email</td>
-                    <td>emailgoogle@gmail.com</td>
+                    <td>tobias.opondo@strathmore.edu</td>
                 </tr>
                 <tr>
                     <td>Phone</td>
-                    <td>+254780897675</td>
+                    <td>+254710702411</td>
                 </tr>
                 <tr>
                     <td>Address</td>
