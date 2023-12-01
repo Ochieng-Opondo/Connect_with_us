@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "app.css";
+import "../App.css";
 
 export default function Modal() {
   const [modal, setModal] = useState(false);
@@ -10,12 +10,28 @@ export default function Modal() {
     setModal(!modal);
   };
 
-  const handleSubmit = (event) => {
-    event.preventDefault();
-    console.log("User input value:", inputValue);
-    setTotalAmount((prevAmount) => prevAmount + Number(inputValue));
-    setInputValue("");
+  const handleFormSubmit = (e) => {
+    e.preventDefault();
+  
+    // Implement your authentication logic here
+    // For example, you can check if email and password are valid against a database
+  
+    if (isEmailValid(email) && isPasswordValid(password)) {
+      const token = jwt.sign({ email }, 'your-secret-key'); // Replace 'your-secret-key' with your own secret key
+      console.log(`${actionType} with email: ${email} and password: ${password} submitted`);
+  
+      // Store the token in local storage or a cookie for further use
+      localStorage.setItem('token', token);
+    } else {
+      console.log('Invalid email or password');
+    }
+  
+    // Reset form inputs and hide form
+    setEmail('');
+    setPassword('');
+    setShowForm(false);
   };
+  
 
   const percentage = Math.min((totalAmount / 100000) * 100, 100);
 

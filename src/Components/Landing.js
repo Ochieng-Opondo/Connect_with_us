@@ -29,7 +29,7 @@ function Landing() {
   return (
     <div className='head'>
       <div style={{ height: '100%'}}>
-        <article id='art'>Hope Crowd Funding Campaigns</article>
+        <article id='art'>CONNECT WITH US</article>
         <p className='txt'>
           We’ve helped people from all over Kenya crowdfund <br></br>
           the things that matter to them most. From personal fundraisers, <br></br>
