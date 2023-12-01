@@ -4,8 +4,21 @@ import About from './Components/About';
 import Footer from './Components/Footer';
 import Header from './Components/Header';
 import { RouterProvider } from "react-router-dom";
+import LogInForm from './Components/Loginform'
+import { BrowserRouter } from 'react-router-dom';
+import { RouterProvider } from "react-router-dom";
 import Login from './Components/login'
 
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Landing />,
+  },
+  {
+    path: '/login',
+    element: <LogInForm />
+  }
+]);
 const router = createBrowserRouter([
   {
     path: "/",
