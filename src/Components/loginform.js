@@ -34,7 +34,13 @@ const LogInForm = ({ visible, onclose }) => {
                     onChange={(e) => setPassword(e.target.value)}
                     />
                 </div>
-                <button type="submit">Log In</button>
+                <button type="submit" onclick="redirectToLogin()">Log In</button>
+    
+               <script>
+        function redirectToLogin() 
+            window.location.href = "login.html";
+        
+    </script>
             </form>
         </div>
     );
