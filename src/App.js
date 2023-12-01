@@ -1,7 +1,7 @@
 import './App.css';
 import Landing from './Components/Landing';
 import About from './Components/About';
-import Footer from './Components/ Footer';
+import Footer from './Components/Footer';
 import Header from './Components/Header';
 
 
